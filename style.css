@@ -1,0 +1,286 @@
+
+
+/*   
+body{
+    font-family: 'Poppins', sans-serif;
+} */
+
+/*---------- google font---------- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ body{
+font-family: 'Poppins', sans-serif;
+
+
+
+ }
+
+body{
+    background-color: rgb(207, 191, 191);
+}
+*{
+   
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+
+
+.nav-ber{
+    background-color: #342d53a8;
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:25px;
+    
+ }
+
+.nav-logo{
+  display: flex;
+  align-items: center;   
+}
+.header-logo img{
+   height: 33px;
+   
+}
+.logo-title{
+    font-size:27ypx;
+    font-weight: 600;
+    color: rgb(180, 136, 48);
+    padding: 0px 10px;
+}
+.logo-title:hover{
+   color: black;
+   
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(221, 218, 212);
+    text-align: center;
+}
+ul li a:hover{
+   text-decoration: underline;
+   color: rgba(22, 21, 22, 0.726);
+   background-color: rgba(86, 117, 35, 0.616);
+  
+   border-radius: 6px;
+}
+
+ /*-------------- 
+        header end 
+ -----------------------*/
+main{
+    max-width:70%;
+    background-color: rgb(255, 255, 255);
+    height:600px;
+    margin: 0% auto;
+    border-radius: 6px;
+}
+
+.team{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 1.5rem;
+    justify-items: center;
+}
+.player img{
+    height:70px;
+  padding-top: px;
+}
+.player-name{
+    margin-left:20px;
+  
+}
+
+.players{
+    display: flex;
+    align-items: center;  
+}
+.top{
+   padding-top:20px;
+   margin:25px 64px;
+    color: rgba(113, 27, 211, 0.808);
+}
+.h-r{
+    border:0.2px solid rgb(68, 63, 63);
+   width: 85%;
+  margin: 0 auto;
+ 
+}
+
+/* top players end */
+article{
+    margin-top:1rem;
+}
+
+.blog-pic img{
+height: 90px;
+}
+
+.blog-style{
+    color: darkolivegreen;
+}
+.blogs-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 1.5rem;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-left:16px;
+ 
+}
+
+.top-blog{
+    
+     margin:20px 60px;
+     color: rgba(113, 27, 211, 0.808);
+}
+
+/* Lates-Course */
+
+
+section{
+    max-width:70%;
+    background-color: rgba(255, 253, 253, 0.808);
+    height:370px;
+    margin: 0% auto;
+    border-radius: 6px;
+    margin-top:30px;
+   
+}
+.Lates-Course{
+  padding: 20px 60px;
+     
+}
+
+.thumbline{
+    background-color: rgb(253, 253, 253);
+   
+    margin: 0px 14px;
+}
+.thumbline img{
+    height:60px;
+}
+
+.shadow{
+
+    box-shadow:0px 2px 2px ;
+    border-radius: 8px;
+    padding: 20px 16px;
+    
+      
+}
+
+.shadow:hover{
+   background-color: chocolate;
+    
+
+}
+
+
+.Lates-Course{
+    
+     display: flex;
+     justify-content: center;
+    
+   
+   }
+
+.top-course{
+   padding-top:25px;
+    color: rgba(113, 27, 211, 0.808);
+    margin-left: 70px;
+}
+
+.thumbline{
+ 
+}
+
+.star-style{
+    color: gold;
+}
+
+
+.reting{
+    font-size:16px;
+    font-weight: 800;
+    padding-left:10px;
+}
+
+.clock{
+    background-color: rgba(165, 42, 42, 0.26);
+     width:100px;
+    border-radius:50px;
+    color: brown;
+    text-align: center;
+    margin-left: 18px;
+    padding: 6px 8px;
+  
+}
+
+
+.author{
+
+    font-size:10px;
+    color: blueviolet;
+}
+
+.course-style{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+  
+    height:249px;
+    margin-top: 70px;
+    background-color: rgba(68, 201, 28, 0.616);
+
+}
+
+.footer-style{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 1.3rem;
+    padding: 0px;
+   text-align: center;
+    font-size: 30px;
+    padding:65px 540px;
+      
+}
+.footer-color{
+    color: darkcyan;
+}
+.footer-color-2{
+    color: rgb(241, 189, 18);
+}
+.footer-color:hover{
+    color: rgb(241, 189, 18);
+    cursor: pointer;
+}
+.footer-color-2:hover{
+    color: darkcyan;
+    cursor: pointer;
+}
+
+
